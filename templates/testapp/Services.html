@@ -1,0 +1,83 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static 'css/demo1.css'%}">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Beauty Parlour</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">About Us<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services">Services</a>
+          </li
+          <li class="nav-item">
+            <a class="nav-link" href="/gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactus">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+<!-- this is code for gallery -->
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA0m2Q0i-llcHNYJV0m5KC5XR7ilZhd46Wow&usqp=CAU" alt="Face pack image" width="600" height="400">
+        <h6>Hair Cut</h6>
+      </div>
+      <div class="col-4">
+        <img src="{%static 'images/waxing.jpg'%}" alt="Face pack image">
+        <h6>Waxing</h6>
+      </div>
+      <div class="col-4">
+        <img src="{%static 'images/thread.jpg'%}" alt="Face pack image">
+        <h6>Threading</h>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="{%static 'images/makeup.jpg'%}" alt="Face pack image">
+        <h6>Make Up</h6>
+      </div>
+      <div class="col-4">
+        <img src="{%static 'images/mehan.jpg'%}" alt="Face pack image">
+        <h6>Mehandi</h6>
+      </div>
+      <div class="col-4">
+        <img src="{%static 'images/mani.jpg'%}" alt="Face pack image">
+        <h6>Manicure</h>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="{%static 'images/pedicure.jpg'%}" alt="Face pack image">
+        <h6>Pedicure</h6>
+      </div>
+      <div class="col-4">
+        <img src="{%static 'images/facial.jpg'%}" alt="Face pack image">
+        <h6>Facial</h6>
+      </div>
+      <div class="col-4">
+        <img src="{%static 'images/cleanup.jpg'%}" alt="Face pack image">
+        <h6>Clean Up</h>
+      </div>
+    </div>
+
+  </div>

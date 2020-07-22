@@ -1,0 +1,26 @@
+body{
+  /*background: url('https://lh3.googleusercontent.com/b39dQsD0qC9sh0N4ySRYiOYjrjaqGifRVyLFV4s4OlFoDRWmnb22dDKalQ2yANoVuHOPYzFY=w1080-h608-p-no-v0');*/
+  /* background: url('https://images.unsplash.com/photo-1516414559093-91c1c3d7359c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');*/
+  background: url('https://lh3.googleusercontent.com/ULD6LGcXcBd38_C03d8qO2BaJKMtUebuKzvLcNNAMV-Kq7U6U1aK_-x-aBt-T26z-pXyp8ME=w1080-h608-p-no-v0');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p{
+  color: black;
+  font-size: 20px;
+}
+.content{
+  width:60%;
+  float:left;
+  padding: 50px 0 0 30px;
+  height: 100%;
+}
+.sidebar{
+  width:40%;
+  float:right;
+  padding: 10px;
+  height: 100%;
+}
+h1{
+  margin-left: 125px;
+}

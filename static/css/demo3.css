@@ -1,0 +1,28 @@
+body{
+  background: url('https://images.unsplash.com/photo-1516414559093-91c1c3d7359c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  border: 2px solid black;
+  border-radius: 50px;
+  height: 80%;
+  width: 80%;
+  margin: 20px;
+
+}
+h3{
+  text-align: center;
+  text-indent: -2em;
+}
+.jumbotron{
+  text-align: center;
+  background-position: center;
+  background-color: #F5DEB3;
+  padding: 90px;
+  margin: 160px;
+}
+h1,h2{
+  color: #C71585;
+}

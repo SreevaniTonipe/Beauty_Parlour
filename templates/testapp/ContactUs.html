@@ -1,0 +1,54 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static 'css/demofile.css'%}">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Beauty Parlour</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">About Us<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services">Services</a>
+          </li
+          <li class="nav-item">
+            <a class="nav-link" href="/gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactus">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!--here is the code of Contactus-->
+    <h1>Drop a message</h1>
+    <div class="container">
+      <form method="post">
+        {{form.as_p}}
+        {%csrf_token%}
+        <input type="submit" class='btn btn-primary btn-lg' name="" value="Submit">
+      </form>
+
+      <p><span style="font-weight:bold">Head Office: </span>5/124 BabuPlaza,Near SreeLakshmi Stores,Babu Main Road,Adoni-518301</p>
+      <p><span style="font-weight:bold">Phone Number:</span> 91+ 9900012123</p>
+      <p><span style="font-weight:bold">Email: </span>shreyas123@shryasparlour.com</p>
+
+    </div>
+</body>
+</html>
